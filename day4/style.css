@@ -1,0 +1,27 @@
+:root {
+  --bg: #ffffff;
+  --text: #222222;
+  --warning: orange;
+  --over: red;
+}
+
+body.dark {
+  --bg: #1e1e1e;
+  --text: #eeeeee;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: sans-serif;
+  padding: 1rem;
+}
+
+.warning {
+  color: var(--warning);
+}
+
+.over {
+  color: var(--over);
+  font-weight: bold;
+}
